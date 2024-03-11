@@ -1,0 +1,86 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)) no-repeat fixed, url('images/bg-3.png') no-repeat fixed;
+    background-size: cover; /* Réglez la taille de l'image de fond sur auto */
+    color: white; /* Text color on the background */
+    height: 100vh; /* Pour que le corps (body) ait une hauteur égale à 100% de la hauteur de la fenêtre */
+    margin: 0; /* Pour enlever les marges par défaut du corps (body) */
+    padding: 0px; /* Ajoute un remplissage de 20px à l'intérieur du corps */
+    background-position: center ;
+}
+
+.bg-dark-transparent {
+    background-color: rgba(0, 0, 0, 0.7); /* Noir avec une transparence de 50% */
+}
+
+
+.content-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)); /* Couleur de fond noire */
+    border-radius: 60px; /* Bord arrondi */
+    padding: 30px; /* Espacement intérieur */
+    margin-bottom: 30px; /* Marge en bas pour l'espace entre les conteneurs */
+    margin-top: 20px; /* Marge en haut pour l'espace avec la barre de navigation */
+    transition: transform 0.3s ease;
+     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.9);
+}
+
+.minimized {
+    max-width: 700px; /* Largeur maximale souhaitée */
+    transition: max-width 0.3s ease; /* Animation de transition sur la largeur maximale */
+}
+.content-container:hover {
+    transform: scale(1.05); /* Effet d'agrandissement au survol */
+}
+
+.content-container img {
+    border-radius: 10px; /* Appliquer également un bord arrondi à l'image si nécessaire */
+    max-width: 100%; /* Assurer que l'image ne dépasse pas la largeur du conteneur */
+}
+
+.content {
+    color: white; /* Couleur du texte blanc */
+    font-size: 18px; /* Taille de la police plus grande */
+    text-align: center;
+}
+
+.content h1 {
+    color: #F2A42D; /* Couleur personnalisée pour le titre */
+
+}
+
+
+
+.content a.btn {
+    background-color: #F2A42D; /* Couleur de fond personnalisée pour le bouton */
+    color: #ffffff; /* Couleur du texte personnalisée pour le bouton */
+    border-color: #F2A42D; /* Couleur de la bordure personnalisée pour le bouton */
+    width: 90px;
+}
+
+.content a.btn:hover {
+    background-color: #D18B20; /* Couleur de fond personnalisée pour le bouton au survol */
+    border-color: #D18B20; /* Couleur de la bordure personnalisée pour le bouton au survol */
+}
+
+
+.footer {
+   
+    background-color: #000000; /* Couleur de fond sombre */
+    color: #fff; /* Couleur du texte blanc */
+    padding: 20px 0; /* Espacement intérieur du footer */
+}
+
+.footer .container {
+    margin-left: 200px;
+}
+
+.footer-link {
+    color: #F2A42D; /* Couleur des liens */
+    text-decoration: none; /* Suppression du soulignement des liens */
+    display: inline-block; /* Affichage en ligne pour occuper uniquement l'espace nécessaire */
+    margin-right: 20px; /* Marge à droite entre les liens */
+}
+
+.footer-link:hover {
+    text-decoration: none; /* Soulignement des liens au survol */
+}
+

@@ -1,0 +1,9 @@
+body {
+    background-image: url('back.htm'); /* Remplacez 'background.jpg' par le chemin de votre image */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-dark-transparent {
+    background-color: rgba(0, 0, 0, 0.5); /* Noir avec une transparence de 50% */
+}
